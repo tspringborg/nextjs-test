@@ -1,11 +1,29 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0 2rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.input-field {
+  font-size: large;
+  padding: 1rem;
+}
+.product {
+  border: 1px solid grey;
+  min-width: 100%;
+  &:hover {
+    background-color: lightblue;
+  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  img {
+    width: 8vw;
+    max-height: 8vw;
+  }
 }
 
 .main {
